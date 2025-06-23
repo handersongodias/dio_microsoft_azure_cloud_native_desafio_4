@@ -1,0 +1,81 @@
+body {
+    background: #f4f6f8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 32px 24px 24px 24px;
+}
+h1 {
+    text-align: center;
+    color: #2d3a4b;
+    margin-bottom: 24px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+label {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+input[type="date"],
+input[type="number"] {
+    padding: 8px;
+    border: 1px solid #cfd8dc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+button {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #1565c0;
+}
+.result {
+    margin-top: 28px;
+    text-align: center;
+}
+.barcode-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #333;
+    word-break: break-all;
+}
+.barcode-img {
+    margin-top: 8px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e0e0e0;
+    background: #fafafa;
+    padding: 8px;
+    border-radius: 4px;
+}
+.error {
+    color: #d32f2f;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 0.98rem;
+}
+.center-barcode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
